@@ -71,6 +71,10 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 
 ## Core
 
+Apps which are listed in the section _Core_, are directly known by the Bench system.
+These apps are automatically activated, if certain app types or features
+are used in the Bench environment.
+
 ### Git
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
