@@ -1,7 +1,7 @@
-Bench Default App Library
-=========================
+Bench Core App Library
+======================
 
-This project is the default library for applications,
+This project is the core library for applications,
 used by [Bench](http://mastersign.github.io/bench/).
 
 The individual apps are described in the [`apps.md`](apps.md) file.
