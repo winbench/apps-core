@@ -129,3 +129,41 @@ Therefore, the latest version of _NPM_ is installed afterwards via the setup scr
 * ArchiveName: `npm-1.4.12.zip`
 * Dir: `$Bench.Node:Dir$`
 * Exe: `npm.cmd`
+
+### Ruby
+
+A dynamic, open source programming language with a focus on simplicity and productivity.
+It has an elegant syntax that is natural to read and easy to write.
+
+* ID: `Bench.Ruby`
+* Website: <https://www.ruby-lang.org/>
+* Docs:
+    + Documentation: <https://www.ruby-lang.org/en/documentation/>
+    + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
+    + Libraries: <https://www.ruby-lang.org/en/libraries/>
+* Version: 2.3.1
+* Url: `http://dl.bintray.com/oneclick/rubyinstaller/$:ArchiveName$`
+* ArchiveName: `rubyinstaller-$:Version$.exe`
+* ArchiveTyp: `inno`
+* ArchivePath: `{app}`
+* Path: `bin`
+* Exe: `bin\ruby.exe`
+* Launcher: $:Label$
+* LauncherArguments: `$:Dir$\bin\irb`
+
+### RubyGems
+
+RubyGems is a package management framework for Ruby.
+
+* ID: `Bench.RubyGems`
+* Website: <https://rubygems.org/>
+* Docs:
+	+ Gems: <https://rubygems.org/gems>
+	+ Documentation: <http://guides.rubygems.org/>
+* Dependencies: `Bench.Ruby`
+* Version: 2.6.8
+* Url: `https://rubygems.org/rubygems/$:ArchiveName$`
+* ArchiveName: `rubygems-$:Version$.zip`
+* Dir: `$Bench.Ruby:Dir$\tmp`
+* Register: false
+* SetupTestFile: `$:Dir$\rubygems-$:Version$\setup.rb`
