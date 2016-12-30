@@ -167,3 +167,39 @@ RubyGems is a package management framework for Ruby.
 * Dir: `$Bench.Ruby:Dir$\tmp`
 * Register: false
 * SetupTestFile: `$:Dir$\rubygems-$:Version$\setup.rb`
+
+### Python 2
+
+Python is a programming language that lets you work quickly and integrate systems more effectively.
+
+* ID: `Bench.Python2`
+* Label: Python 2
+* Website: <https://www.python.org/>
+* Docs:
+    + Documentation: <https://docs.python.org/2/>
+    + Language Reference: <https://docs.python.org/2/reference/index.html>
+    + Library Reference: <https://docs.python.org/2/library/index.html>
+* Version: 2.7.12
+* Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
+* ArchiveName: `python-$:Version$.msi`
+* ArchivePath: `SourceDir`
+* Path: `.`, `Scripts`
+* Exe: `python.exe`
+
+### Python 3
+
+Python is a programming language that lets you work quickly and integrate systems more effectively.
+
+* ID: `Bench.Python3`
+* Label: Python 3
+* Website: <https://www.python.org/>
+* Docs:
+    + Documentation: <https://docs.python.org/3/>
+    + Language Reference: <https://docs.python.org/3/reference/index.html>
+    + Library Reference: <https://docs.python.org/3/library/index.html>
+* Version: 3.4.4
+* Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
+* ArchiveName: `python-$:Version$.msi`
+* ArchivePath: `SourceDir`
+* Path: `.`, `Scripts`
+* Exe: `python.exe`
