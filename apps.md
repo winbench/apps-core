@@ -203,3 +203,21 @@ Python is a programming language that lets you work quickly and integrate system
 * ArchivePath: `SourceDir`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
+
+### NuGet
+
+NuGet is the package manager for the Microsoft development platform including .NET.
+The NuGet client tools provide the ability to produce and consume packages.
+The NuGet Gallery is the central package repository used by all package authors and consumers.
+
+* ID: `Bench.NuGet`
+* Version: latest
+* Website: <https://www.nuget.org>
+* Docs:
+    + Consume: <https://docs.nuget.org/consume>
+    + Create: <https://docs.nuget.org/create>
+    + Command-Line: <https://docs.nuget.org/Consume/Command-Line-Reference>
+    + Configuration File: <https://docs.nuget.org/Consume/NuGet-Config-File>
+* Version: latest
+* Url: <https://dist.nuget.org/win-x86-commandline/latest/nuget.exe>
+* ResourceName: `nuget.exe`
