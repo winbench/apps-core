@@ -1,5 +1,5 @@
-$gitDir = App-Dir Git
-$git = App-Exe Git
+$gitDir = App-Dir "Bench.Git"
+$git = App-Exe "Bench.Git"
 if (!$git) { throw "Git not found" }
 
 if (Test-Path "$gitDir\post-install.bat")
@@ -48,7 +48,7 @@ else
 
 if (!$user -or !$email)
 {
-    Write-Host "Configuring your GIT identity ..."
+    Write-Host "Configuring your Git identity ..."
     if (!$user)
     {
         $user = Get-ConfigValue UserName

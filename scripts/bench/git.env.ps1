@@ -1,5 +1,5 @@
-$gitDir = App-Dir Git
-$git = App-Exe Git
+$gitDir = App-Dir "Bench.Git"
+$git = App-Exe "Bench.Git"
 
 pushd $gitDir
 Write-Host "Running post-install script for Git ..."

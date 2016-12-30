@@ -79,7 +79,7 @@ are used in the Bench environment.
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-* ID: `Git`
+* ID: `Bench.Git`
 * Website: <https://git-scm.com/download/win>
 * Docs:
     + Reference: <https://git-scm.com/docs>
