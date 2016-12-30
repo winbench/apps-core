@@ -35,7 +35,6 @@ It comes with a graphical file manager and supports a large range of compression
 * Url: `http://7-zip.org/a/$:ArchiveName$`
 * ArchiveName: `7z$:Release$.msi`
 * ArchivePath: `SourceDir\Files\7-Zip`
-* Dir: `7z`
 * Exe: `7z.exe`
 * Launcher: $:Label$
 * LauncherExecutable: `7zFM.exe`
