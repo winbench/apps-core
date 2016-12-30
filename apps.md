@@ -1,4 +1,4 @@
-# Default App Library
+# Core App Library
 
 ## Required
 
