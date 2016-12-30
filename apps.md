@@ -124,7 +124,7 @@ Therefore, the latest version of _NPM_ is installed afterwards via the setup scr
 * Label: NPM
 * Dependencies: `Bench.Node`
 * Website: <https://www.npmjs.com/package/npm>
-* Version: `>=3.7.0 <4.0.0`
+* Version: `>=4.0.0 <5.0.0`
 * Url: <https://nodejs.org/dist/npm/npm-1.4.12.zip>
 * ArchiveName: `npm-1.4.12.zip`
 * Dir: `$Bench.Node:Dir$`
