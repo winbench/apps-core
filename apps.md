@@ -221,3 +221,31 @@ The NuGet Gallery is the central package repository used by all package authors 
 * Version: latest
 * Url: <https://dist.nuget.org/win-x86-commandline/latest/nuget.exe>
 * ResourceName: `nuget.exe`
+
+## Important Basics
+
+### Wget
+
+GNU Wget is a free utility for non-interactive download of files from the Web.
+It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
+
+* ID: `Bench.Wget`
+* Website: <https://www.gnu.org>
+* Docs:
+    + Manual: <https://www.gnu.org/software/wget/>
+* Version: 1.11.4-1
+* Dependencies: `Bench.WgetDeps`
+* Url: `https://sourceforge.net/projects/gnuwin32/files/wget/$:Version$/$:ArchiveName$`
+* ArchiveName: `wget-$:Version$-bin.zip`
+* Dir: `bench\gnu`
+* Path: `bin`
+* Exe: `bin\wget.exe`
+* Environment:
+    + `HTTP_CLIENT`: `wget --no-check-certificate -O`
+
+* ID: `Bench.WgetDeps`
+* Version: `$Bench.Wget:Version$`
+* Url: `https://sourceforge.net/projects/gnuwin32/files/wget/$:Version$/$:ArchiveName$`
+* ArchiveName: `wget-$:Version$-dep.zip`
+* Dir: `$Bench.Wget:Dir$`
+* SetupTestFile: `bin\libssl32.dll`
