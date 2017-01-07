@@ -222,7 +222,7 @@ The NuGet Gallery is the central package repository used by all package authors 
 * Url: <https://dist.nuget.org/win-x86-commandline/latest/nuget.exe>
 * ResourceName: `nuget.exe`
 
-## Important Basics
+## Basics
 
 ### Wget
 
