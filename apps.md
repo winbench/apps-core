@@ -153,11 +153,10 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.3.1
+* Version: 2.3.3
 * Url: `http://dl.bintray.com/oneclick/rubyinstaller/$:ArchiveName$`
 * ArchiveName: `rubyinstaller-$:Version$.exe`
 * ArchiveTyp: `inno`
-* ArchivePath: `{app}`
 * Path: `bin`
 * Exe: `bin\ruby.exe`
 * Launcher: $:Label$
