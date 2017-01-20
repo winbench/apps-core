@@ -66,8 +66,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 16.10.09a
-* Release: 161009a
+* Version: 16.12.06
+* Release: 161206
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Launcher: $:Label$
