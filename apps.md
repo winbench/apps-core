@@ -243,6 +243,25 @@ The NuGet Gallery is the central package repository used by all package authors 
 
 ## Basics
 
+### Notepad2
+
+Notepad2 is a fast and light-weight Notepad-like text editor with syntax highlighting.
+This program can be run out of the box without installation, and does not touch your system's registry.
+
+* ID: `Bench.Notepad2`
+* Website: <http://www.flos-freeware.ch/notepad2.html>
+* License: BSD-3-Clause
+* LicenseUrl: `License.txt`
+* Docs:
+    + Readme: <http://www.flos-freeware.ch/doc/Notepad2.txt>
+    + FAQ: <http://www.flos-freeware.ch/doc/notepad2-FAQs.html>
+    + Encoding Tutorial: <http://www.flos-freeware.ch/doc/notepad2-Encoding.html>
+* Version: 4.2.25
+* Url: `http://www.flos-freeware.ch/zip/$:ArchiveName$`
+* ArchiveName: `notepad2_$:Version$_x86.zip`
+* Register: `false`
+* Launcher: $:Label$
+
 ### Wget
 
 GNU Wget is a free utility for non-interactive download of files from the Web.
