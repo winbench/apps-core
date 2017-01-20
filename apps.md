@@ -254,19 +254,8 @@ It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP pr
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * Docs:
     + Manual: <https://www.gnu.org/software/wget/>
-* Version: 1.11.4-1
-* Dependencies: `Bench.WgetDeps`
-* Url: `https://sourceforge.net/projects/gnuwin32/files/wget/$:Version$/$:ArchiveName$`
-* ArchiveName: `wget-$:Version$-bin.zip`
-* Dir: `bench\gnu`
-* Path: `bin`
-* Exe: `bin\wget.exe`
+* Version: latest
+* Url: <https://eternallybored.org/misc/wget/current/wget.exe>
+* ResourceName: `wget.exe`
 * Environment:
-    + `HTTP_CLIENT`: `wget --no-check-certificate -O`
-
-* ID: `Bench.WgetDeps`
-* Version: `$Bench.Wget:Version$`
-* Url: `https://sourceforge.net/projects/gnuwin32/files/wget/$:Version$/$:ArchiveName$`
-* ArchiveName: `wget-$:Version$-dep.zip`
-* Dir: `$Bench.Wget:Dir$`
-* SetupTestFile: `bin\libssl32.dll`
+    + `HTTP_CLIENT`: `wget.exe --no-check-certificate -O`
