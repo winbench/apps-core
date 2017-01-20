@@ -13,6 +13,7 @@ A tool to view and extract the contents of a Windows Installer (.msi) file.
 * Label: Less MSIerables
 * Version: 1.3
 * Website: <http://lessmsi.activescott.com/>
+* License: MIT
 * Url: `https://github.com/activescott/lessmsi/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `lessmsi-v$:Version$.zip`
 * Exe: `lessmsi.exe`
@@ -26,6 +27,7 @@ It comes with a graphical file manager and supports a large range of compression
 * ID: `Bench.7z`
 * Label: 7-Zip
 * Website: <http://www.7-zip.de/download.html>
+* License: LGPL-2.1
 * Docs:
     + Help: `7-zip.chm`
 * VersionYear: 16
@@ -46,6 +48,7 @@ A tool to extract the files from an Inno Setup executable.
 * ID: `Bench.InnoUnp`
 * Label: Inno Setup Unpacker
 * Website: <http://innounp.sourceforge.net/>
+* License: GPL-3.0
 * Version: 0.45
 * Release: 045
 * Url: `http://sourceforge.net/projects/innounp/files/innounp/innounp%20$:Version$/$:ArchiveName$`
@@ -59,6 +62,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 
 * ID: `Bench.ConEmu`
 * Website: <https://conemu.github.io/>
+* License: BSD-3-Clause
+* LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
 * Version: 16.10.09a
@@ -80,6 +85,7 @@ Git is a free and open source distributed version control system designed to han
 
 * ID: `Bench.Git`
 * Website: <https://git-scm.com/download/win>
+* License: GPL-2.0
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
@@ -101,6 +107,8 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * ID: `Bench.Node`
 * Label: Node.js
 * Website: <https://nodejs.org>
+* License: MIT
+* LicenseUrl: <https://raw.githubusercontent.com/nodejs/node/master/LICENSE>
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
@@ -124,6 +132,8 @@ Therefore, the latest version of _NPM_ is installed afterwards via the setup scr
 * Label: NPM
 * Dependencies: `Bench.Node`
 * Website: <https://www.npmjs.com/package/npm>
+* License: Artistic-2.0
+* LicenseUrl: <https://raw.githubusercontent.com/npm/npm/latest/LICENSE>
 * Version: `>=4.0.0 <5.0.0`
 * Url: <https://nodejs.org/dist/npm/npm-1.4.12.zip>
 * ArchiveName: `npm-1.4.12.zip`
@@ -137,6 +147,8 @@ It has an elegant syntax that is natural to read and easy to write.
 
 * ID: `Bench.Ruby`
 * Website: <https://www.ruby-lang.org/>
+* License: BSD-2-Clause
+* LicenseUrl: <https://www.ruby-lang.org/en/about/license.txt>
 * Docs:
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
@@ -157,6 +169,8 @@ RubyGems is a package management framework for Ruby.
 
 * ID: `Bench.RubyGems`
 * Website: <https://rubygems.org/>
+* License: MIT
+* LicenseUrl: <https://raw.githubusercontent.com/rubygems/rubygems.org/master/MIT-LICENSE>
 * Docs:
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
@@ -175,6 +189,8 @@ Python is a programming language that lets you work quickly and integrate system
 * ID: `Bench.Python2`
 * Label: Python 2
 * Website: <https://www.python.org/>
+* License: GPL compatible
+* LicenseUrl: <https://docs.python.org/2/license.html>
 * Docs:
     + Documentation: <https://docs.python.org/2/>
     + Language Reference: <https://docs.python.org/2/reference/index.html>
@@ -193,6 +209,8 @@ Python is a programming language that lets you work quickly and integrate system
 * ID: `Bench.Python3`
 * Label: Python 3
 * Website: <https://www.python.org/>
+* License: GPL compatible
+* LicenseUrl: <https://docs.python.org/3.4/license.html>
 * Docs:
     + Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
@@ -213,6 +231,7 @@ The NuGet Gallery is the central package repository used by all package authors 
 * ID: `Bench.NuGet`
 * Version: latest
 * Website: <https://www.nuget.org>
+* License: Apache-2.0
 * Docs:
     + Consume: <https://docs.nuget.org/consume>
     + Create: <https://docs.nuget.org/create>
@@ -231,6 +250,8 @@ It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP pr
 
 * ID: `Bench.Wget`
 * Website: <https://www.gnu.org>
+* License: GPL-3
+* LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * Docs:
     + Manual: <https://www.gnu.org/software/wget/>
 * Version: 1.11.4-1
