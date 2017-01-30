@@ -3,4 +3,4 @@ $gemsTmpDir = App-Dir "Bench.RubyGems"
 
 $packageDir = gci "$gemsTmpDir\rubygems-*" | Sort-Object -Descending
 cd $packageDir
-ruby setup.rb
+& $ruby setup.rb
