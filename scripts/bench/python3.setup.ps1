@@ -10,7 +10,7 @@ $pythonLib = "$pythonDir\Lib"
 if (Test-Path $pythonLibArchive)
 {
 	& $7z x $pythonLibArchive "-o$pythonLib"
-	#del $pythonLibArchive
+	del $pythonLibArchive
 }
 
 $pythonWrapper = [IO.Path]::Combine($pythonDir, "python3.cmd")
