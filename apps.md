@@ -195,6 +195,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Language Reference: <https://docs.python.org/2/reference/index.html>
     + Library Reference: <https://docs.python.org/2/library/index.html>
 * Version: 2.7.13
+* CPythonVersion: 27
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName: `python-$:Version$.msi`
 * ArchivePath: `SourceDir`
@@ -207,6 +208,7 @@ Python is a programming language that lets you work quickly and integrate system
 
 * ID: `Bench.Python3`
 * Label: Python 3
+* Dependencies: `Bench.Python3.Pip`
 * Website: <https://www.python.org/>
 * License: GPL compatible
 * LicenseUrl: <https://docs.python.org/3.4/license.html>
@@ -214,12 +216,25 @@ Python is a programming language that lets you work quickly and integrate system
     + Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.4.4
+* Version: 3.5.3
+* CPythonVersion: 35
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName: `python-$:Version$.msi`
-* ArchivePath: `SourceDir`
-* Path: `.`, `Scripts`
+* ArchiveName: `python-$:Version$-embed-win32.zip`
 * Exe: `python.exe`
+
+### Python 3 Package Manager
+
+The PyPA recommended tool for installing Python packages.
+
+* ID: `Bench.Python3.Pip`
+* Label: PIP (Python 3)
+* Version: latest
+* Dependencies: `Bench.Python3`
+* Url: `https://bootstrap.pypa.io/get-pip.py`
+* ResourceName: `get-pip.py`
+* Dir: `$Bench.Python3:Dir$`
+* Path: `$:Dir$\Scripts`
+* Exe: `$:Path$\pip3.exe`
 
 ### NuGet
 
