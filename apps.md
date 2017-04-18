@@ -112,33 +112,10 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 6.10.0
 * Url: `https://nodejs.org/dist/v$:Version$/win-x86/node.exe`
 * ResourceName: `node.exe`
+* Version: 6.10.2
 * Launcher: $:Label$
-
-### NPM
-
-npm is the package manager for JavaScript.
-Find, share, and reuse packages of code from hundreds of thousands of
-developers — and assemble them in powerful new ways.
-
-Because _Node.js_ is downloaded as bare executable, _NPM_ must be installed seperately.
-But NPM, in its latest versions, is only distributed as part of the _Node.js_ setup.
-_NPM_ 1.4.12 is the last version of _NPM_ which was released seperately.
-Therefore, the latest version of _NPM_ is installed afterwards via the setup script `auto\apps\npm.setup.ps1`.
-
-* ID: `Bench.Npm`
-* Label: NPM
-* Dependencies: `Bench.Node`
-* Website: <https://www.npmjs.com/package/npm>
-* License: Artistic-2.0
-* LicenseUrl: <https://raw.githubusercontent.com/npm/npm/latest/LICENSE>
-* Version: `>=4.0.0 <5.0.0`
-* Url: <https://nodejs.org/dist/npm/npm-1.4.12.zip>
-* ArchiveName: `npm-1.4.12.zip`
-* Dir: `$Bench.Node:Dir$`
-* Exe: `npm.cmd`
 
 ### Ruby
 

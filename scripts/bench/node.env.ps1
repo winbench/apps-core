@@ -1,7 +1,5 @@
-$node = App-Exe "Bench.Node"
-if (!$node) { throw "NodeJS not found" }
-$npm = App-Exe "Bench.Npm"
-if (!$npm) { throw "Node Package Manager not found" }
+$nodeDir = App-Dir "Bench.Node"
+$npm = Resolve-Path "$nodeDir\npm.cmd"
 
 & $npm config set registry "http://registry.npmjs.org/"
 if (Get-ConfigBooleanValue UseProxy) {
