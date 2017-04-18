@@ -35,7 +35,8 @@ It comes with a graphical file manager and supports a large range of compression
 * Version: $:VersionYear$.$:VersionNo$
 * Release: $:VersionYear$$:VersionNo$
 * Url: `http://7-zip.org/a/$:ArchiveName$`
-* ArchiveName: `7z$:Release$.msi`
+* ArchiveName32Bit: `7z$:Release$.msi`
+* ArchiveName64Bit: `7z$:Release$-x64.msi`
 * ArchivePath: `SourceDir\Files\7-Zip`
 * Exe: `7z.exe`
 * Launcher: $:Label$
@@ -66,10 +67,12 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 17.03.16
-* Release: 170316
+* Version: 16.12.06
+* Release: 161206
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
+* Exe32Bit: `ConEmu.exe`
+* Exe64Bit: `ConEmu64.exe`
 * Launcher: $:Label$
 * LauncherArguments: `-LoadCfgFile`, `$UserConfigDir$\ConEmu.xml`,  `%*`
 
@@ -89,10 +92,11 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.12.0
+* Version: 2.12.2
 * Release: $:Version$.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
-* ArchiveName: `PortableGit-$:Version$-32-bit.7z.exe`
+* ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
+* ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
 * Path: `cmd`
 * Exe: `cmd\git.exe`
 * Environment:
@@ -112,9 +116,11 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Url: `https://nodejs.org/dist/v$:Version$/win-x86/node.exe`
-* ResourceName: `node.exe`
 * Version: 6.10.2
+* Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
+* ArchiveName: `$:ArchivePath$.zip`
+* ArchivePath32Bit: `node-v$:Version$-win-x86`
+* ArchivePath64Bit: `node-v$:Version$-win-x64`
 * Launcher: $:Label$
 
 ### Ruby
@@ -132,7 +138,8 @@ It has an elegant syntax that is natural to read and easy to write.
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
 * Version: 2.3.3
 * Url: `http://dl.bintray.com/oneclick/rubyinstaller/$:ArchiveName$`
-* ArchiveName: `rubyinstaller-$:Version$.exe`
+* ArchiveName32Bit: `rubyinstaller-$:Version$.exe`
+* ArchiveName64Bit: `rubyinstaller-$:Version$-x64.exe`
 * ArchiveTyp: `inno`
 * Path: `bin`
 * Exe: `bin\ruby.exe`
@@ -151,7 +158,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.6.8
+* Version: 2.6.11
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -174,7 +181,8 @@ Python is a programming language that lets you work quickly and integrate system
 * Version: 2.7.13
 * CPythonVersion: 27
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName: `python-$:Version$.msi`
+* ArchiveName32Bit: `python-$:Version$.msi`
+* ArchiveName64Bit: `python-$:Version$.amd64.msi`
 * ArchivePath: `SourceDir`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
@@ -196,7 +204,8 @@ Python is a programming language that lets you work quickly and integrate system
 * Version: 3.5.3
 * CPythonVersion: 35
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName: `python-$:Version$-embed-win32.zip`
+* ArchiveName32Bit: `python-$:Version$-embed-win32.zip`
+* ArchiveName64Bit: `python-$:Version$-embed-amd64.zip`
 * Exe: `python.exe`
 
 ### Python 3 Package Manager
@@ -249,7 +258,8 @@ This program can be run out of the box without installation, and does not touch 
     + Encoding Tutorial: <http://www.flos-freeware.ch/doc/notepad2-Encoding.html>
 * Version: 4.2.25
 * Url: `http://www.flos-freeware.ch/zip/$:ArchiveName$`
-* ArchiveName: `notepad2_$:Version$_x86.zip`
+* ArchiveName32Bit: `notepad2_$:Version$_x86.zip`
+* ArchiveName64Bit: `notepad2_$:Version$_x64.zip`
 * Register: `false`
 * Launcher: $:Label$
 
