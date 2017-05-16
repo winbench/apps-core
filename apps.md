@@ -116,7 +116,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 6.10.2
+* Version: 6.10.3
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
