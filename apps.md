@@ -50,8 +50,8 @@ A tool to extract the files from an Inno Setup executable.
 * Label: Inno Setup Unpacker
 * Website: <http://innounp.sourceforge.net/>
 * License: GPL-3.0
-* Version: 0.45
-* Release: 045
+* Version: 0.46
+* Release: 046
 * Url: `http://sourceforge.net/projects/innounp/files/innounp/innounp%20$:Version$/$:ArchiveName$`
 * ArchiveName: `innounp$:Release$.rar`
 * Exe: `innounp.exe`
@@ -92,7 +92,7 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.13.0
+* Version: 2.13.2
 * Release: $:Version$.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
@@ -116,7 +116,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 6.10.3
+* Version: 6.11.0
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -158,7 +158,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.6.11
+* Version: 2.6.12
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -275,7 +275,7 @@ Markdown Edit (MDE) is low distraction editor for Windows. MDE focuses on produc
 * Docs:
     + Documentation: <https://github.com/mike-ward/Markdown-Edit/wiki/01.-Home>
     + Keyboard Shortcuts: <https://github.com/mike-ward/Markdown-Edit/wiki/05.-Keyboard-Shortcuts>
-* Version: 1.32
+* Version: 1.33
 * Url: `https://github.com/mike-ward/Markdown-Edit/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `MarkdownEdit.zip`
 * Exe: `mde.exe`
