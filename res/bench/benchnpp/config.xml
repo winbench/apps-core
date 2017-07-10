@@ -6,7 +6,7 @@
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="no">standard</GUIConfig>
         <GUIConfig name="StatusBar">hide</GUIConfig>
-        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="yes" quitOnEmpty="no" />
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" />
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
@@ -29,8 +29,9 @@
         <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
         <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="yes" funcParams="yes" />
         <GUIConfig name="auto-insert" parentheses="yes" brackets="yes" curlyBrackets="no" quotes="yes" doubleQuotes="yes" htmlXmlTag="yes">
-            <UserDefinePair open="96" close="96" />
             <UserDefinePair open="60" close="62" />
+            <UserDefinePair open="96" close="96" />
+            <UserDefinePair open="36" close="36" />
         </GUIConfig>
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="workspaceExt"></GUIConfig>
