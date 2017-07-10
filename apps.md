@@ -76,6 +76,23 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * Launcher: $:Label$
 * LauncherArguments: `-LoadCfgFile`, `$UserConfigDir$\ConEmu.xml`,  `%*`
 
+### Notepad++ Configured for Bench
+
+Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GPL License.
+
+This Notepad++ app is configured for editing the configuration files of a Bench environment.
+
+* ID: `Bench.BenchNpp`
+* Label: Bench Notepad++
+* License: GPL-3.0
+* LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
+* MajorVersion: 7
+* Version: `$:MajorVersion$.4.2`
+* Url: `https://notepad-plus-plus.org/repository/$:MajorVersion$.x/$:Version$/$:ArchiveName$`
+* ArchiveName32Bit: `npp.$:Version$.bin.7z`
+* ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
+* Exe: `notepad++.exe`
+
 ## Core
 
 Apps which are listed in the section _Core_, are directly known by the Bench system.
