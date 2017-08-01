@@ -92,6 +92,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
 * Exe: `notepad++.exe`
+* Register: `false`
 
 ## Core
 
