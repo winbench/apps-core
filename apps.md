@@ -87,7 +87,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * MajorVersion: 7
-* Version: `$:MajorVersion$.4.2`
+* Version: `$:MajorVersion$.5.1`
 * Url: `https://notepad-plus-plus.org/repository/$:MajorVersion$.x/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -110,7 +110,7 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.13.2
+* Version: 2.14.1
 * Release: $:Version$.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
@@ -134,7 +134,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 6.11.0
+* Version: 6.11.3
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -176,7 +176,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.6.12
+* Version: 2.6.13
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -196,7 +196,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Documentation: <https://docs.python.org/2/>
     + Language Reference: <https://docs.python.org/2/reference/index.html>
     + Library Reference: <https://docs.python.org/2/library/index.html>
-* Version: 2.7.13
+* Version: 2.7.14
 * CPythonVersion: 27
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$.msi`
@@ -219,7 +219,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.5.3
+* Version: 3.5.4
 * CPythonVersion: 35
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$-embed-win32.zip`
@@ -272,8 +272,10 @@ It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP pr
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * Docs:
     + Manual: <https://www.gnu.org/software/wget/>
-* Version: latest
-* Url: <https://eternallybored.org/misc/wget/current/wget.exe>
-* ResourceName: `wget.exe`
+* Version: 1.16.1
+* Url: <https://sourceforge.net/projects/ezwinports/files/$:ArchiveName$>
+* ArchiveName: `wget-$:Version$-w32-bin.zip`
+* Path: `bin`
+* Exe: `bin\wget.exe`
 * Environment:
     + `HTTP_CLIENT`: `wget.exe --no-check-certificate -O`
