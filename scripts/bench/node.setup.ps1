@@ -1,4 +1,12 @@
 $nodeDir = App-Dir "Bench.Node"
 $npm = Resolve-Path "$nodeDir\npm.cmd"
 
-& $npm install --global npm
+$npmBak = "$nodeDir\npm-bak.cmd"
+move $npm $npmBak
+del "$nodeDir\npm"
+
+del "$nodeDir\npx.cmd"
+del "$nodeDir\npx"
+
+& $npmBak install --global npm
+del $npmBak
