@@ -176,7 +176,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.7.3
+* Version: 2.7.4
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
