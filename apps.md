@@ -214,17 +214,22 @@ Python is a programming language that lets you work quickly and integrate system
 * Dependencies: `Bench.Python3.Pip`
 * Website: <https://www.python.org/>
 * License: GPL compatible
-* LicenseUrl: <https://docs.python.org/3.4/license.html>
+* LicenseUrl: <https://docs.python.org/3.6/license.html>
 * Docs:
-    + Documentation: <https://docs.python.org/3/>
+    + Offline Documentation: `$:Dir$\Doc\python$:CompactVersion$.chm`
+    + Online Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.5.4
-* CPythonVersion: 35
+* Version: 3.6.4
+* CompactVersion: 364
+* CPythonVersion: 36
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName32Bit: `python-$:Version$-embed-win32.zip`
-* ArchiveName64Bit: `python-$:Version$-embed-amd64.zip`
+* ArchiveName32Bit: `python-$:Version$-win32-webinstall.exe`
+* ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
 * Exe: `python.exe`
+* Launcher: Python 3 IDLE
+* LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
+* LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
 
 ### Python 3 Package Manager
 
