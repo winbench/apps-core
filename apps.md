@@ -204,6 +204,9 @@ Python is a programming language that lets you work quickly and integrate system
 * ArchivePath: `SourceDir`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
+* Launcher: $:Label$ IDLE
+* LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
+* LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
 
 ### Python 3
 
@@ -227,7 +230,7 @@ Python is a programming language that lets you work quickly and integrate system
 * ArchiveName32Bit: `python-$:Version$-win32-webinstall.exe`
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
 * Exe: `python.exe`
-* Launcher: Python 3 IDLE
+* Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
 
