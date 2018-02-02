@@ -227,7 +227,7 @@ Python is a programming language that lets you work quickly and integrate system
 * CompactVersion: 364
 * CPythonVersion: 36
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName32Bit: `python-$:Version$-win32-webinstall.exe`
+* ArchiveName32Bit: `python-$:Version$-webinstall.exe`
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
 * Exe: `python.exe`
 * Launcher: $:Label$ IDLE
