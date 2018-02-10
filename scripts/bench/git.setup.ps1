@@ -13,7 +13,7 @@ Write-Host "Running post-install script for Git ..."
 copy "post-install.bat.bak" "post-install.bat"
 try
 {
-    cmd /C "post-install.bat" | Out-Null
+    & ".\git-bash.exe --no-needs-console --hide --no-cd --command=post-install.bat"
 }
 catch { }
 popd
