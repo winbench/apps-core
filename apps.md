@@ -30,8 +30,8 @@ It comes with a graphical file manager and supports a large range of compression
 * License: LGPL-2.1
 * Docs:
     + Help: `7-zip.chm`
-* VersionYear: 16
-* VersionNo: 04
+* VersionYear: 18
+* VersionNo: 05
 * Version: $:VersionYear$.$:VersionNo$
 * Release: $:VersionYear$$:VersionNo$
 * Url: `http://7-zip.org/a/$:ArchiveName$`
@@ -67,8 +67,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 16.12.06
-* Release: 161206
+* Version: 18.05.06
+* Release: 180506
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Exe32Bit: `ConEmu.exe`
@@ -87,7 +87,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * MajorVersion: 7
-* Version: `$:MajorVersion$.5.4`
+* Version: `$:MajorVersion$.5.6`
 * Url: `https://notepad-plus-plus.org/repository/$:MajorVersion$.x/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -110,8 +110,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.16.1.4
-* Release: 2.16.1.windows.4
+* Version: 2.17.0
+* Release: 2.17.0.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
@@ -134,7 +134,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 8.9.4
+* Version: 8.11.2
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -154,10 +154,11 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.3.3
-* Url: `http://dl.bintray.com/oneclick/rubyinstaller/$:ArchiveName$`
-* ArchiveName32Bit: `rubyinstaller-$:Version$.exe`
-* ArchiveName64Bit: `rubyinstaller-$:Version$-x64.exe`
+* Version: 2.5.1
+* Release: $:Version$-1
+* Url: `https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-$:Release$/$:ArchiveName$`
+* ArchiveName32Bit: `rubyinstaller-$:Release$-x86.exe`
+* ArchiveName64Bit: `rubyinstaller-$:Release$-x64.exe`
 * ArchiveTyp: `inno`
 * Path: `bin`
 * Exe: `bin\ruby.exe`
@@ -176,7 +177,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.7.4
+* Version: 2.7.7
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -196,7 +197,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Documentation: <https://docs.python.org/2/>
     + Language Reference: <https://docs.python.org/2/reference/index.html>
     + Library Reference: <https://docs.python.org/2/library/index.html>
-* Version: 2.7.14
+* Version: 2.7.15
 * CPythonVersion: 27
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$.msi`
@@ -223,8 +224,8 @@ Python is a programming language that lets you work quickly and integrate system
     + Online Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.6.4
-* CompactVersion: 364
+* Version: 3.6.5
+* CompactVersion: 365
 * CPythonVersion: 36
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$-webinstall.exe`
@@ -304,9 +305,9 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.58.0
+* Version: 7.60.0
 * Url: `https://bintray.com/artifact/download/vszakats/generic/$:ArchiveName$`
-* ArchiveName: `$:ArchivePath$.7z`
+* ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `curl-$:Version$-win32-mingw`
 * ArchivePath64Bit: `curl-$:Version$-win64-mingw`
 * Path: `bin`
