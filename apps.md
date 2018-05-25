@@ -11,6 +11,11 @@ A tool to view and extract the contents of a Windows Installer (.msi) file.
 
 * ID: `Bench.LessMsi`
 * Label: Less MSIerables
+* Tags:
+    + cli
+    + gui
+    + extractor
+    + msi
 * Version: 1.3
 * Website: <http://lessmsi.activescott.com/>
 * License: MIT
@@ -26,6 +31,11 @@ It comes with a graphical file manager and supports a large range of compression
 
 * ID: `Bench.7z`
 * Label: 7-Zip
+* Tags:
+    + cli
+    + gui
+    + extractor
+    + 7z
 * Website: <http://www.7-zip.de/download.html>
 * License: LGPL-2.1
 * Docs:
@@ -48,6 +58,9 @@ A tool to extract the files from an Inno Setup executable.
 
 * ID: `Bench.InnoUnp`
 * Label: Inno Setup Unpacker
+* Tags:
+    + cli
+    + extractor
 * Website: <http://innounp.sourceforge.net/>
 * License: GPL-3.0
 * Version: 0.46
@@ -62,6 +75,9 @@ A tool to extract the files from an Inno Setup executable.
 ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple consoles and simple GUI applications as one customizable GUI window with various features.
 
 * ID: `Bench.ConEmu`
+* Tags:
+    + gui
+    + console
 * Website: <https://conemu.github.io/>
 * License: BSD-3-Clause
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
@@ -84,6 +100,9 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 
 * ID: `Bench.BenchNpp`
 * Label: Bench Notepad++
+* Tags:
+    + gui
+    + editor
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * MajorVersion: 7
@@ -105,6 +124,9 @@ are used in the Bench environment.
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 * ID: `Bench.Git`
+* Tags:
+    + cli
+    + version control
 * Website: <https://git-scm.com/download/win>
 * License: GPL-2.0
 * Docs:
@@ -128,6 +150,12 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 
 * ID: `Bench.Node`
 * Label: Node.js
+* Tags:
+    + cli
+    + language
+    + runtime
+    + interpreter
+    + JavaScript
 * Website: <https://nodejs.org>
 * License: MIT
 * LicenseUrl: <https://raw.githubusercontent.com/nodejs/node/master/LICENSE>
@@ -147,6 +175,11 @@ A dynamic, open source programming language with a focus on simplicity and produ
 It has an elegant syntax that is natural to read and easy to write.
 
 * ID: `Bench.Ruby`
+* Tags:
+    + cli
+    + language
+    + runtime
+    + interpreter
 * Website: <https://www.ruby-lang.org/>
 * License: BSD-2-Clause
 * LicenseUrl: <https://www.ruby-lang.org/en/about/license.txt>
@@ -170,6 +203,9 @@ It has an elegant syntax that is natural to read and easy to write.
 RubyGems is a package management framework for Ruby.
 
 * ID: `Bench.RubyGems`
+* Tags:
+    + cli
+    + package manager
 * Website: <https://rubygems.org/>
 * License: MIT
 * LicenseUrl: <https://raw.githubusercontent.com/rubygems/rubygems.org/master/MIT-LICENSE>
@@ -190,6 +226,13 @@ Python is a programming language that lets you work quickly and integrate system
 
 * ID: `Bench.Python2`
 * Label: Python 2
+* Tags:
+    + cli
+    + language
+    + runtime
+    + interpreter
+    + package manager
+    + PIP
 * Website: <https://www.python.org/>
 * License: GPL compatible
 * LicenseUrl: <https://docs.python.org/2/license.html>
@@ -215,6 +258,11 @@ Python is a programming language that lets you work quickly and integrate system
 
 * ID: `Bench.Python3`
 * Label: Python 3
+* Tags:
+    + cli
+    + language
+    + runtime
+    + interpreter
 * Dependencies: `Bench.Python3.Pip`
 * Website: <https://www.python.org/>
 * License: GPL compatible
@@ -241,6 +289,9 @@ The PyPA recommended tool for installing Python packages.
 
 * ID: `Bench.Python3.Pip`
 * Label: PIP (Python 3)
+* Tags:
+    + cli
+    + package manager
 * Version: latest
 * Dependencies: `Bench.Python3`
 * Url: `https://bootstrap.pypa.io/get-pip.py`
@@ -256,6 +307,9 @@ The NuGet client tools provide the ability to produce and consume packages.
 The NuGet Gallery is the central package repository used by all package authors and consumers.
 
 * ID: `Bench.NuGet`
+* Tags:
+    + cli
+    + package manager
 * Version: latest
 * Website: <https://www.nuget.org>
 * License: Apache-2.0
@@ -276,6 +330,9 @@ GNU Wget is a free utility for non-interactive download of files from the Web.
 It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 
 * ID: `Bench.Wget`
+* Tags:
+    + cli
+    + networking
 * Website: <https://www.gnu.org>
 * License: GPL-3
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
@@ -299,6 +356,9 @@ user+password authentication (Basic, Plain, Digest, CRAM-MD5, NTLM, Negotiate an
 file transfer resume, proxy tunneling and more.
 
 * ID: `Bench.cURL`
+* Tags:
+    + cli
+    + networking
 * Website: <http://curl.haxx.se/>
 * License: MIT
 * LicenseUrl: <https://curl.haxx.se/docs/copyright.html>
