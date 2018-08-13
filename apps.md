@@ -365,7 +365,7 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.60.0
+* Version: 7.61.0
 * Url: `https://bintray.com/artifact/download/vszakats/generic/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `curl-$:Version$-win32-mingw`
