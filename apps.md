@@ -169,6 +169,24 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * ArchivePath64Bit: `node-v$:Version$-win-x64`
 * Launcher: $:Label$
 
+### Node.js ICU
+
+Node.js ICU does load the full localization database for Node.js.
+Per default, Node.js does only come with _Small ICU_, which only contains the locale `en-US`.
+If you need real localization, e.g. for `date.toLocaleString("de-DE", { timezone: "Europe/Berlin" })`,
+activate this app.
+
+* ID: `Bench.Node.FullICU`
+* Label: Node.js full ICU
+* Tags:
+    + localization
+    + javascript
+* Typ: `meta`
+* PackageName: `full-icu`
+* Environment:
+    + `NODE_ICU_DATA`: `$Bench.Node:Dir$\node_modules\full-icu`
+* SetupTestFile: `$Bench.Node:Dir$\node_modules\full-icu\full-icu.js`
+
 ### Ruby
 
 A dynamic, open source programming language with a focus on simplicity and productivity.
