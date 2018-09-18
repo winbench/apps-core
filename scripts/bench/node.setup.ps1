@@ -1,6 +1,10 @@
 $nodeDir = App-Dir "Bench.Node"
 $npm = Resolve-Path "$nodeDir\npm.cmd"
 
+if (Test-Path env:NODE_ICU_DATA) {
+    del env:NODE_ICU_DATA
+}
+
 & $npm config set registry "https://registry.npmjs.org/"
 if (Get-ConfigBooleanValue UseProxy) {
     & $npm config set "proxy" $(Get-ConfigValue HttpProxy)
