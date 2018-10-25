@@ -290,8 +290,8 @@ Python is a programming language that lets you work quickly and integrate system
     + Online Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.6.6
-* CompactVersion: 366
+* Version: 3.6.7
+* CompactVersion: 367
 * CPythonVersion: 36
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$-webinstall.exe`
