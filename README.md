@@ -7,9 +7,9 @@ used by [Bench](https://winbench.org/).
 The individual apps are described in the [`apps.md`](apps.md) file.
 
 Take a look at the documentation for the
-[syntax](http://mastersign.github.io/bench/ref/markup-syntax/),
-the [app types](http://mastersign.github.io/bench/ref/app-types/),
-and the [app properties](http://mastersign.github.io/bench/ref/app-properties/).
+[syntax](https://winbench.org/ref/markup-syntax/),
+the [app types](https://winbench.org/ref/app-types/),
+and the [app properties](https://winbench.org/ref/app-properties/).
 Apps are installed in the order they appear in the library.
 This has to be taken into consideration, when organizing the library.
 
