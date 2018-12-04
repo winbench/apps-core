@@ -2,7 +2,7 @@ Bench Core App Library
 ======================
 
 This project is the core library for applications,
-used by [Bench](http://mastersign.github.io/bench/).
+used by [Bench](https://winbench.org/).
 
 The individual apps are described in the [`apps.md`](apps.md) file.
 
