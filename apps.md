@@ -51,6 +51,9 @@ It comes with a graphical file manager and supports a large range of compression
 * Exe: `7z.exe`
 * Launcher: $:Label$
 * LauncherExecutable: `7zFM.exe`
+* VersionCheckUrl: <http://www.7-zip.de/download.html>
+* VersionCheckXPath: `//td/p/b`
+* VersionCheckPattern: `Download von 7-Zip (?<Version>\d+\.\d+) .*?\(\d{2}\.\d{2}\.\d{4}\) f..?r Windows`
 
 ### Inno Setup Unpacker
 
@@ -112,6 +115,9 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
 * Exe: `notepad++.exe`
 * Register: `false`
+* VersionCheckUrl: `https://notepad-plus-plus.org/repository/$:MajorVersion$.x/`
+* VersionCheckXPath: `//table/descendant::tr/td/a`
+* VersionCheckPattern: `(?<Version>[\d\.]+)`
 
 ## Core
 
@@ -141,6 +147,7 @@ Git is a free and open source distributed version control system designed to han
 * Exe: `cmd\git.exe`
 * Environment:
     + `GIT_SSH`: `$:Dir$\usr\bin\ssh.exe`
+* VersionCheckString: `$:Release$`
 
 ### Node.js
 
@@ -168,6 +175,9 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
 * ArchivePath64Bit: `node-v$:Version$-win-x64`
 * Launcher: $:Label$
+* VersionCheckUrl: <https://nodejs.org/en/download/>
+* VersionCheckXPath: `/html/body/div[@id='main']/descendant::article/section/p`
+* VersionCheckPattern: `^Latest LTS Version: (?<Version>[\d\.]+)`
 
 ### Node.js ICU
 
@@ -215,6 +225,7 @@ It has an elegant syntax that is natural to read and easy to write.
 * Exe: `bin\ruby.exe`
 * Launcher: $:Label$
 * LauncherArguments: `$:Dir$\bin\irb`
+* VersionCheckString: `rubyinstaller-$:Release$`
 
 ### RubyGems
 
@@ -237,6 +248,9 @@ RubyGems is a package management framework for Ruby.
 * Dir: `$Bench.Ruby:Dir$\tmp`
 * Register: false
 * SetupTestFile: `$:Dir$\rubygems-$:Version$\setup.rb`
+* VersionCheckUrl: <https://rubygems.org/pages/download>
+* VersionCheckXPath: `//main/descendant::h1/i`
+* VersionCheckPattern: `^v(?<Version>[\d\.]+)`
 
 ### Python 2
 
@@ -269,6 +283,9 @@ Python is a programming language that lets you work quickly and integrate system
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
+* VersionCheckUrl: <https://www.python.org/ftp/python/>
+* VersionCheckXPath: `/html/body/pre/a`
+* VersionCheckPattern: `^(?<Version>2\.7\.[\d\.]*)/$`
 
 ### Python 3
 
@@ -299,6 +316,9 @@ Python is a programming language that lets you work quickly and integrate system
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
+* VersionCheckUrl: <https://www.python.org/ftp/python/>
+* VersionCheckXPath: `/html/body/pre/a`
+* VersionCheckPattern: `^(?<Version>3\.6\.[\d\.]*)/$`
 
 ### NuGet
 
@@ -345,6 +365,9 @@ It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP pr
 * Exe: `bin\wget.exe`
 * Environment:
     + `HTTP_CLIENT`: `wget.exe --no-check-certificate -O`
+* VersionCheckUrl: <https://sourceforge.net/projects/ezwinports/files/>
+* VersionCheckXPath: `/html/body/descendant::div[@id='files']/table/descendant::tr/th/a`
+* VersionCheckPattern: `wget-(?<Version>[\d\.]+)-w32-bin\.zip`
 
 ### cURL
 
@@ -372,3 +395,6 @@ file transfer resume, proxy tunneling and more.
 * ArchivePath64Bit: `curl-$:Version$-win64-mingw`
 * Path: `bin`
 * Exe: `bin\curl.exe`
+* VersionCheckUrl: <https://curl.haxx.se/windows/>
+* VersionCheckXPath: `//h1`
+* VersionCheckPattern: `curl (?<Version>[\d\.]+) for Windows`
