@@ -132,8 +132,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.19.1
-* Release: 2.19.1.windows.1
+* Version: 2.20.0
+* Release: $:Version$.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
