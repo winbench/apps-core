@@ -205,12 +205,12 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.5.1
+* Version: 2.5.3
 * Release: $:Version$-1
 * Url: `https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-$:Release$/$:ArchiveName$`
-* ArchiveName32Bit: `rubyinstaller-$:Release$-x86.exe`
-* ArchiveName64Bit: `rubyinstaller-$:Release$-x64.exe`
-* ArchiveTyp: `inno`
+* ArchiveName: `$:ArchivePath$.7z`
+* ArchivePath32Bit: `rubyinstaller-$:Release$-x86`
+* ArchivePath64Bit: `rubyinstaller-$:Release$-x64`
 * Path: `bin`
 * Exe: `bin\ruby.exe`
 * Launcher: $:Label$
