@@ -6,7 +6,7 @@ $pythonDir = App-Dir "Bench.Python2"
 $pythonWrapper = [IO.Path]::Combine($pythonDir, "python2.cmd")
 if (!(Test-Path $pythonWrapper)) {
     Write-Host "Creating wrapper to call Python 2 via 'python2' ..."
-    "@CALL `"%~dp0\python.exe`" %*" | Out-File $pythonWrapper -Encoding default
+    "@`"%~dp0\python.exe`" %*" | Out-File $pythonWrapper -Encoding default
 }
 
 $pipPackageDir = [IO.Path]::Combine($pythonDir, "lib\site-packages\pip")
