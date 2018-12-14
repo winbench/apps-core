@@ -365,11 +365,9 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.61.1
-* Release: 7
-* Url: `https://curl.haxx.se/windows/dl-$:Version$_$:Release$/$:ArchiveName$`
-* ArchiveName32Bit: `curl-$:Version$_$:Release$-win32-mingw.zip`
-* ArchiveName64Bit: `curl-$:Version$_$:Release$-win64-mingw.zip`
+* Version: 7.63.0
+* Url: `https://curl.haxx.se/windows/dl-$:Version$/$:ArchiveName$`
+* ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `curl-$:Version$-win32-mingw`
 * ArchivePath64Bit: `curl-$:Version$-win64-mingw`
 * Path: `bin`
