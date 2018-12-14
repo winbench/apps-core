@@ -23,7 +23,8 @@ Start-Process -Wait -FilePath $archive -ArgumentList @("/quiet", "/layout", "`"$
 echo "Extracting Python 3 MSI files..."
 foreach ($c in $components) {
     pushd $targetDir
-    & $LessMsi x "$msiDir\${c}.msi" ".\"
+    echo "  - $c"
+    & $LessMsi x "$msiDir\${c}.msi" "$targetDir\" | Out-Null
     $exitCode = $LastExitCode
     popd
     if ($exitCode -ne 0) {

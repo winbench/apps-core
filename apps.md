@@ -16,7 +16,7 @@ A tool to view and extract the contents of a Windows Installer (.msi) file.
     + gui
     + extractor
     + msi
-* Version: 1.3
+* Version: 1.6.3
 * Website: <http://lessmsi.activescott.com/>
 * License: MIT
 * Url: `https://github.com/activescott/lessmsi/releases/download/v$:Version$/$:ArchiveName$`
