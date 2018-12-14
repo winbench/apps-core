@@ -281,7 +281,6 @@ Python is a programming language that lets you work quickly and integrate system
     + language
     + runtime
     + interpreter
-* Dependencies: `Bench.Python3.Pip`
 * Website: <https://www.python.org/>
 * License: GPL compatible
 * LicenseUrl: <https://docs.python.org/3.6/license.html>
@@ -300,23 +299,6 @@ Python is a programming language that lets you work quickly and integrate system
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
-
-### Python 3 Package Manager
-
-The PyPA recommended tool for installing Python packages.
-
-* ID: `Bench.Python3.Pip`
-* Label: PIP (Python 3)
-* Tags:
-    + cli
-    + package manager
-* Version: latest
-* Dependencies: `Bench.Python3`
-* Url: `https://bootstrap.pypa.io/get-pip.py`
-* ResourceName: `get-pip.py`
-* Dir: `$Bench.Python3:Dir$`
-* Path: `$:Dir$\Scripts`
-* Exe: `$:Path$\pip3.exe`
 
 ### NuGet
 

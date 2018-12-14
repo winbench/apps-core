@@ -8,3 +8,6 @@ if (!(Test-Path $pythonWrapper -PathType Leaf)) {
     Write-Host "Creating wrapper to call Python 3 via 'python3' ..."
     "@CALL `"%~dp0\python.exe`" %*" | Out-File $pythonWrapper -Encoding default
 }
+
+& $python -m ensurepip
+& $python -m pip install --upgrade --no-warn-script-location pip setuptools wheel
