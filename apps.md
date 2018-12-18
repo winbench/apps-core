@@ -272,8 +272,12 @@ Python is a programming language that lets you work quickly and integrate system
     + Documentation: <https://docs.python.org/2/>
     + Language Reference: <https://docs.python.org/2/reference/index.html>
     + Library Reference: <https://docs.python.org/2/library/index.html>
-* Version: 2.7.15
-* CPythonVersion: 27
+* MajorVersion: 2
+* MinorVersion: 7
+* Revision: 15
+* Version: $:MajorVersion$.$:MinorVersion$.$:Revision$
+* CompactVersion: $:MajorVersion$$:MinorVersion$$:Revision$
+* CPythonVersion: $:MajorVersion$$:MinorVersion$
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$.msi`
 * ArchiveName64Bit: `python-$:Version$.amd64.msi`
@@ -283,9 +287,9 @@ Python is a programming language that lets you work quickly and integrate system
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
-* VersionCheckUrl: <https://www.python.org/ftp/python/>
-* VersionCheckXPath: `/html/body/pre/a`
-* VersionCheckPattern: `^(?<Version>2\.7\.[\d\.]*)/$`
+* VersionCheckUrl: <https://www.python.org/downloads/>
+* VersionCheckXPath: `//section[@role='main']/descendant::span[@class='release-number']/a`
+* VersionCheckPattern: `^Python (?<Version>$:MajorVersion$\.$:MinorVersion$\.[\d\.]*)$`
 
 ### Python 3
 
@@ -306,9 +310,12 @@ Python is a programming language that lets you work quickly and integrate system
     + Online Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
-* Version: 3.6.7
-* CompactVersion: 367
-* CPythonVersion: 36
+* MajorVersion: 3
+* MinorVersion: 6
+* Revision: 7
+* Version: $:MajorVersion$.$:MinorVersion$.$:Revision$
+* CompactVersion: $:MajorVersion$$:MinorVersion$$:Revision$
+* CPythonVersion: $:MajorVersion$$:MinorVersion$
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$-webinstall.exe`
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
@@ -316,9 +323,9 @@ Python is a programming language that lets you work quickly and integrate system
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
-* VersionCheckUrl: <https://www.python.org/ftp/python/>
-* VersionCheckXPath: `/html/body/pre/a`
-* VersionCheckPattern: `^(?<Version>3\.6\.[\d\.]*)/$`
+* VersionCheckUrl: <https://www.python.org/downloads/>
+* VersionCheckXPath: `//section[@role='main']/descendant::span[@class='release-number']/a`
+* VersionCheckPattern: `^Python (?<Version>$:MajorVersion$\.$:MinorVersion$\.[\d\.]*)$`
 
 ### NuGet
 
