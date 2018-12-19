@@ -319,6 +319,7 @@ Python is a programming language that lets you work quickly and integrate system
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `python-$:Version$-webinstall.exe`
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
+* Path: `.`, `Scripts`
 * Exe: `python.exe`
 * Launcher: $:Label$ IDLE
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
