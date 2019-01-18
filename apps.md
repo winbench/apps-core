@@ -41,7 +41,7 @@ It comes with a graphical file manager and supports a large range of compression
 * Docs:
     + Help: `7-zip.chm`
 * VersionYear: 18
-* VersionNo: 05
+* VersionNo: 06
 * Version: $:VersionYear$.$:VersionNo$
 * Release: $:VersionYear$$:VersionNo$
 * Url: `http://7-zip.org/a/$:ArchiveName$`
@@ -66,8 +66,8 @@ A tool to extract the files from an Inno Setup executable.
     + extractor
 * Website: <http://innounp.sourceforge.net/>
 * License: GPL-3.0
-* Version: 0.46
-* Release: 046
+* Version: 0.47
+* Release: 047
 * Url: `http://sourceforge.net/projects/innounp/files/innounp/innounp%20$:Version$/$:ArchiveName$`
 * ArchiveName: `innounp$:Release$.rar`
 * Exe: `innounp.exe`
@@ -86,8 +86,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 18.06.26
-* Release: 180626
+* Version: 19.01.08
+* Release: 190108
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Exe32Bit: `ConEmu.exe`
@@ -109,7 +109,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 7
-* Version: `$:VersionMajor$.6.1`
+* Version: `$:VersionMajor$.6.2`
 * Url: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -169,7 +169,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 10.14.2
+* Version: 10.15.0
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -215,9 +215,9 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.5.3
+* Version: 2.6.0
 * Release: $:Version$-1
-* Url: `https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-$:Release$/$:ArchiveName$`
+* Url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$:Release$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.7z`
 * ArchivePath32Bit: `rubyinstaller-$:Release$-x86`
 * ArchivePath64Bit: `rubyinstaller-$:Release$-x64`
@@ -225,7 +225,7 @@ It has an elegant syntax that is natural to read and easy to write.
 * Exe: `bin\ruby.exe`
 * Launcher: $:Label$
 * LauncherArguments: `$:Dir$\bin\irb`
-* VersionCheckString: `rubyinstaller-$:Release$`
+* VersionCheckString: `RubyInstaller-$:Release$`
 
 ### RubyGems
 
@@ -242,7 +242,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 2.7.8
+* Version: 3.0.2
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -312,7 +312,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
 * VersionMinor: 6
-* Revision: 7
+* Revision: 8
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
