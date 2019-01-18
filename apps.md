@@ -72,6 +72,9 @@ A tool to extract the files from an Inno Setup executable.
 * ArchiveName: `innounp$:Release$.rar`
 * Exe: `innounp.exe`
 * Register: `false`
+* VersionCheckUrl: <https://sourceforge.net/projects/innounp/files/innounp/>
+* VersionCheckXPath: `/html/body/descendant::div[@id='files']/table/descendant::tr/th/a`
+* VersionCheckPattern: `innounp\s(?<Version>[\d\.]+)`
 
 ### ConEmu
 
