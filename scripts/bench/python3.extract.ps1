@@ -1,6 +1,9 @@
 param ($archive, $targetDir)
 
 $LessMsi = App-Exe "Bench.LessMsi"
+$TempDir = Get-ConfigValue "TempDir"
+$CacheDir = Get-ConfigValue "AppsCacheDir"
+$PyVer = App-Version "Bench.Python3"
 
 $components = @(
     "core"
@@ -12,19 +15,33 @@ $components = @(
     # "launcher"
 )
 
-$msiDir = "$targetDir\setup_archives"
-if (!(Test-Path $msiDir)) {
-    $_ = mkdir $msiDir
+$downloadRequired = $false
+foreach ($c in $components) {
+    if (!(Test-Path "$CacheDir\python-${PyVer}-${c}.msi")) {
+        $downloadRequired = $true
+        break
+    }
 }
 
-echo "Downloading Python 3 MSI files..."
-Start-Process -Wait -FilePath $archive -ArgumentList @("/quiet", "/layout", "`"$msiDir`"")
+if ($downloadRequired) {
+    $tmpDir = "$targetDir\python3-setup-archives"
+    if (!(Test-Path $tmpDir)) {
+        $_ = mkdir $tmpDir
+    }
+    echo "Downloading Python 3 MSI files..."
+    Start-Process -Wait -FilePath $archive -ArgumentList @("/quiet", "/layout", "`"$tmpDir`"")
+
+    foreach ($c in $components) {
+        mv "$tmpDir\${c}.msi" "$CacheDir\python-${PyVer}-${c}.msi"
+    }
+    del $tmpDir -Recurse -Force
+}
 
 echo "Extracting Python 3 MSI files..."
 foreach ($c in $components) {
     pushd $targetDir
     echo "  - $c"
-    & $LessMsi x "$msiDir\${c}.msi" "$targetDir\" | Out-Null
+    & $LessMsi x "$CacheDir\python-${PyVer}-${c}.msi" "$targetDir\" | Out-Null
     $exitCode = $LastExitCode
     popd
     if ($exitCode -ne 0) {
