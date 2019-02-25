@@ -218,7 +218,7 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.6.0
+* Version: 2.6.1
 * Release: $:Version$-1
 * Url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$:Release$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.7z`
