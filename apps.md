@@ -399,7 +399,7 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.63.0
+* Version: 7.64.0
 * Url: `https://curl.haxx.se/windows/dl-$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `curl-$:Version$-win32-mingw`
