@@ -52,8 +52,8 @@ It comes with a graphical file manager and supports a large range of compression
 * Launcher: $:Label$
 * LauncherExecutable: `7zFM.exe`
 * VersionCheckUrl: <http://www.7-zip.de/download.html>
-* VersionCheckXPath: `//td/p/b`
-* VersionCheckPattern: `Download von 7-Zip (?<Version>\d+\.\d+) .*?\(\d{2}\.\d{2}\.\d{4}\) f..?r Windows`
+* VersionCheckXPath: `//article/div/p/strong`
+* VersionCheckPattern: `Download von 7-Zip (?<Version>\d+\.\d+) .*?\(\d{2}\.\d{2}\.\d{4}\) f\S+r Windows`
 
 ### Inno Setup Unpacker
 
