@@ -112,7 +112,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 7
-* Version: `$:VersionMajor$.6.4`
+* Version: `$:VersionMajor$.6.6`
 * Url: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -120,7 +120,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * Register: `false`
 * VersionCheckUrl: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/`
 * VersionCheckXPath: `//table/descendant::tr/td/a`
-* VersionCheckPattern: `(?<Version>[\d\.]+)`
+* VersionCheckPattern: `(?<Version>$:VersionMajor$\.[\d\.]+)`
 
 ## Core
 
