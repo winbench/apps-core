@@ -314,8 +314,8 @@ Python is a programming language that lets you work quickly and integrate system
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
-* VersionMinor: 6
-* Revision: 8
+* VersionMinor: 7
+* Revision: 3
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
