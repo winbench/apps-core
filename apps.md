@@ -16,7 +16,7 @@ A tool to view and extract the contents of a Windows Installer (.msi) file.
     + gui
     + extractor
     + msi
-* Version: 1.6.3
+* Version: 1.6.91
 * Website: <http://lessmsi.activescott.com/>
 * License: MIT
 * Url: `https://github.com/activescott/lessmsi/releases/download/v$:Version$/$:ArchiveName$`
@@ -89,8 +89,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 19.05.26
-* Release: 190526
+* Version: 19.07.14
+* Release: 190714
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Exe32Bit: `ConEmu.exe`
@@ -112,15 +112,15 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 7
-* Version: `$:VersionMajor$.7`
+* Version: `$:VersionMajor$.7.1`
 * Url: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
 * Exe: `notepad++.exe`
 * Register: `false`
 * VersionCheckUrl: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/`
-* VersionCheckXPath: `//table/descendant::tr/td/a`
-* VersionCheckPattern: `(?<Version>$:VersionMajor$\.[\d\.]+)`
+* VersionCheckXPath: `//pre/a`
+* VersionCheckPattern: `^(?<Version>$:VersionMajor$\.[\d\.]+)/`
 
 ## Core
 
@@ -172,7 +172,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 10.16.0
+* Version: 10.16.2
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -315,7 +315,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
 * VersionMinor: 7
-* Revision: 3
+* Revision: 4
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -425,8 +425,8 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.65.1
-* VersionPostfix: _3
+* Version: 7.65.3
+* VersionPostfix: 
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
 * ArchiveName64Bit: `curl-$:Version$$:VersionPostfix$-win64-mingw.zip`
