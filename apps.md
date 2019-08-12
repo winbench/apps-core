@@ -355,6 +355,32 @@ The NuGet Gallery is the central package repository used by all package authors 
 
 ## Basics
 
+### PowerShell Core
+
+PowerShell is a task-based command-line shell and scripting language built on .NET.
+PowerShell helps system administrators and power-users rapidly automate tasks
+that manage operating systems (Linux, macOS, and Windows) and processes.
+
+* ID: `Bench.PowerShellCore`
+* Label: PowerShell Core
+* Tags:
+    + cli
+    + shell
+    + PowerShell
+* Website: <https://microsoft.com/PowerShell>
+* License: MIT
+* LicenseUrl: <https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt>
+* Docs:
+    + Repository: <https://github.com/PowerShell/PowerShell>
+    + Get Startet: <https://docs.microsoft.com/en-us/powershell/scripting/overview>
+    + System Admin Samples: <https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration>
+* Version: 6.2.2
+* Url: `https://github.com/PowerShell/PowerShell/releases/download/v$:Version$/$:ArchiveName$`
+* ArchiveName64Bit: `PowerShell-$:Version$-win-x64.zip`
+* ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
+* Exe: `pwsh.exe`
+* Launcher: $:Label$
+
 ### Wget
 
 GNU Wget is a free utility for non-interactive download of files from the Web.
