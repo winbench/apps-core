@@ -32,12 +32,13 @@ if ($downloadRequired) {
     Start-Process -Wait -FilePath $archive -ArgumentList @("/quiet", "/layout", "`"$tmpDir`"")
 
     foreach ($c in $components) {
-        mv "$tmpDir\${c}.msi" "$CacheDir\python-${PyVer}-${c}.msi"
+        move "$tmpDir\${c}.msi" "$CacheDir\python-${PyVer}-${c}.msi"
     }
     del $tmpDir -Recurse -Force
 }
 
 echo "Extracting Python 3 MSI files..."
+Empty-Dir $targetDir
 foreach ($c in $components) {
     pushd $targetDir
     echo "  - $c"
