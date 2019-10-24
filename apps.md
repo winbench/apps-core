@@ -36,7 +36,7 @@ It comes with a graphical file manager and supports a large range of compression
     + gui
     + extractor
     + 7z
-* Website: <http://www.7-zip.de/download.html>
+* Website: <http://www.7-zip.org/download.html>
 * License: LGPL-2.1
 * Docs:
     + Help: `7-zip.chm`
@@ -51,7 +51,7 @@ It comes with a graphical file manager and supports a large range of compression
 * Exe: `7z.exe`
 * Launcher: $:Label$
 * LauncherExecutable: `7zFM.exe`
-* VersionCheckUrl: <http://www.7-zip.de/download.html>
+* VersionCheckUrl: <http://www.7-zip.org/download.html>
 * VersionCheckXPath: `//article/div/p/strong`
 * VersionCheckPattern: `Download von 7-Zip (?<Version>\d+\.\d+) .*?\(\d{2}\.\d{2}\.\d{4}\) f\S+r Windows`
 
