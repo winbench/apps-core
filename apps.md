@@ -89,8 +89,8 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * LicenseUrl: <https://github.com/Maximus5/ConEmu/blob/master/Release/ConEmu/License.txt>
 * Docs:
     + Documentation: <https://conemu.github.io/en/TableOfContents.html>
-* Version: 19.07.14
-* Release: 190714
+* Version: 19.10.12
+* Release: 191012
 * Url: `https://github.com/Maximus5/ConEmu/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Exe32Bit: `ConEmu.exe`
@@ -120,7 +120,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * Register: `false`
 * VersionCheckUrl: `https://notepad-plus-plus.org/repository/$:VersionMajor$.x/`
 * VersionCheckXPath: `//pre/a`
-* VersionCheckPattern: `^(?<Version>$:VersionMajor$\.[\d\.]+)/`
+* VersionCheckPattern: `^(?<Version>$:VersionMajor$\.[\d\.]+)`
 
 ## Core
 
@@ -141,8 +141,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.23.0
-* Release: $:Version$.windows.1
+* Version: 2.24.1.2
+* Release: 2.24.1.windows.2
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
@@ -172,7 +172,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 10.16.3
+* Version: 12.14.0
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -218,7 +218,7 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.6.4
+* Version: 2.7.0
 * Release: $:Version$-1
 * Url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$:Release$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.7z`
@@ -245,7 +245,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 3.0.6
+* Version: 3.1.2
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -277,7 +277,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/2/library/index.html>
 * VersionMajor: 2
 * VersionMinor: 7
-* Revision: 16
+* Revision: 17
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -315,7 +315,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
 * VersionMinor: 7
-* Revision: 4
+* Revision: 6
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -425,7 +425,7 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.66.0
+* Version: 7.67.0
 * VersionPostfix: 
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
