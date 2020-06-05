@@ -112,7 +112,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 7
-* Version: `$:VersionMajor$.8.5`
+* Version: `$:VersionMajor$.8.6`
 * Url: `https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -138,8 +138,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.26.1
-* Release: 2.26.1.windows.1
+* Version: 2.27.0
+* Release: 2.27.0.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
@@ -169,7 +169,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 12.16.2
+* Version: 12.18.0
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -215,7 +215,7 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.7.0
+* Version: 2.7.1
 * Release: $:Version$-1
 * Url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$:Release$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.7z`
@@ -242,7 +242,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 3.1.2
+* Version: 3.1.4
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -274,7 +274,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/2/library/index.html>
 * VersionMajor: 2
 * VersionMinor: 7
-* Revision: 17
+* Revision: 18
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -371,7 +371,7 @@ that manage operating systems (Linux, macOS, and Windows) and processes.
     + Repository: <https://github.com/PowerShell/PowerShell>
     + Get Startet: <https://docs.microsoft.com/en-us/powershell/scripting/overview>
     + System Admin Samples: <https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration>
-* Version: 7.0.0
+* Version: 7.0.1
 * Url: `https://github.com/PowerShell/PowerShell/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName64Bit: `PowerShell-$:Version$-win-x64.zip`
 * ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
@@ -422,7 +422,7 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.69.1
+* Version: 7.70.0
 * VersionPostfix: 
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
