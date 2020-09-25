@@ -112,7 +112,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 7
-* Version: `$:VersionMajor$.8.6`
+* Version: `$:VersionMajor$.8.9`
 * Url: `https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.bin.7z`
 * ArchiveName64Bit: `npp.$:Version$.bin.x64.7z`
@@ -138,8 +138,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.27.0
-* Release: 2.27.0.windows.1
+* Version: 2.28.0
+* Release: 2.28.0.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
@@ -169,7 +169,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 12.18.0
+* Version: 12.18.4
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -312,7 +312,7 @@ Python is a programming language that lets you work quickly and integrate system
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
 * VersionMinor: 7
-* Revision: 7
+* Revision: 9
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -422,7 +422,7 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.70.0
+* Version: 7.72.0
 * VersionPostfix: 
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
