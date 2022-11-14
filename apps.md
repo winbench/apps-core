@@ -138,8 +138,8 @@ Git is a free and open source distributed version control system designed to han
 * Docs:
     + Reference: <https://git-scm.com/docs>
     + Pro Git Book: <https://git-scm.com/book/en/v2>
-* Version: 2.35.2
-* Release: 2.35.2.windows.1
+* Version: 2.38.1
+* Release: 2.38.1.windows.1
 * Url: `https://github.com/git-for-windows/git/releases/download/v$:Release$/$:ArchiveName$`
 * ArchiveName32Bit: `PortableGit-$:Version$-32-bit.7z.exe`
 * ArchiveName64Bit: `PortableGit-$:Version$-64-bit.7z.exe`
@@ -169,7 +169,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * Docs:
     + API Documentation: <https://nodejs.org/dist/latest-v6.x/docs/api/>
     + Guides: <https://nodejs.org/en/docs/guides/>
-* Version: 16.4.0
+* Version: 16.18.0
 * Url: `https://nodejs.org/dist/v$:Version$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
@@ -215,7 +215,7 @@ It has an elegant syntax that is natural to read and easy to write.
     + Documentation: <https://www.ruby-lang.org/en/documentation/>
     + Programming Ruby: <http://ruby-doc.com/docs/ProgrammingRuby/>
     + Libraries: <https://www.ruby-lang.org/en/libraries/>
-* Version: 2.7.3
+* Version: 2.7.6
 * Release: $:Version$-1
 * Url: `https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-$:Release$/$:ArchiveName$`
 * ArchiveName: `$:ArchivePath$.7z`
@@ -242,7 +242,7 @@ RubyGems is a package management framework for Ruby.
 	+ Gems: <https://rubygems.org/gems>
 	+ Documentation: <http://guides.rubygems.org/>
 * Dependencies: `Bench.Ruby`
-* Version: 3.2.21
+* Version: 3.3.25
 * Url: `https://rubygems.org/rubygems/$:ArchiveName$`
 * ArchiveName: `rubygems-$:Version$.zip`
 * Dir: `$Bench.Ruby:Dir$\tmp`
@@ -311,8 +311,8 @@ Python is a programming language that lets you work quickly and integrate system
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
-* VersionMinor: 9
-* Revision: 6
+* VersionMinor: 10
+* Revision: 2
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
@@ -371,7 +371,7 @@ that manage operating systems (Linux, macOS, and Windows) and processes.
     + Repository: <https://github.com/PowerShell/PowerShell>
     + Get Startet: <https://docs.microsoft.com/en-us/powershell/scripting/overview>
     + System Admin Samples: <https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration>
-* Version: 7.2.2
+* Version: 7.3.0
 * Url: `https://github.com/PowerShell/PowerShell/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName64Bit: `PowerShell-$:Version$-win-x64.zip`
 * ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
@@ -422,13 +422,13 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.77.0
+* Version: 7.86.0
 * VersionPostfix: _2
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
 * ArchiveName64Bit: `curl-$:Version$$:VersionPostfix$-win64-mingw.zip`
-* ArchivePath32Bit: `curl-$:Version$-win32-mingw`
-* ArchivePath64Bit: `curl-$:Version$-win64-mingw`
+* ArchivePath32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw`
+* ArchivePath64Bit: `curl-$:Version$$:VersionPostfix$-win64-mingw`
 * Path: `bin`
 * Exe: `bin\curl.exe`
 * VersionCheckUrl: <https://curl.haxx.se/windows/>
