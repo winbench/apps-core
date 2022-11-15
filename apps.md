@@ -317,7 +317,7 @@ Python is a programming language that lets you work quickly and integrate system
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* ArchiveName32Bit: `python-$:Version$-webinstall.exe`
+* Only64Bit: `true`
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
