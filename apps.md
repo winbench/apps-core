@@ -377,6 +377,7 @@ that manage operating systems (Linux, macOS, and Windows) and processes.
 * ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
 * Exe: `pwsh.exe`
 * Launcher: $:Label$
+* LauncherArguments: `-ExecutionPolicy`, `RemoteSigned`, `%*`
 
 ### Wget
 
