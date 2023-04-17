@@ -49,7 +49,7 @@ It comes with a graphical file manager and supports a large range of compression
 * ArchiveName64Bit: `7z$:Release$-x64.msi`
 * ArchivePath: `SourceDir\Files\7-Zip`
 * Exe: `7z.exe`
-* Launcher: $:Label$
+* Launcher: `$:Label$`
 * LauncherExecutable: `7zFM.exe`
 * VersionCheckUrl: <http://www.7-zip.org/download.html>
 * VersionCheckXPath: `//article/div/p/strong`
@@ -95,7 +95,7 @@ ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple
 * ArchiveName: `ConEmuPack.$:Release$.7z`
 * Exe32Bit: `ConEmu.exe`
 * Exe64Bit: `ConEmu64.exe`
-* Launcher: $:Label$
+* Launcher: `$:Label$`
 * LauncherArguments: `-LoadCfgFile`, `$UserConfigDir$\ConEmu.xml`,  `%*`
 
 ### Notepad++ Configured for Bench
@@ -174,7 +174,7 @@ Node.js' package ecosystem, npm, is the largest ecosystem of open source librari
 * ArchiveName: `$:ArchivePath$.zip`
 * ArchivePath32Bit: `node-v$:Version$-win-x86`
 * ArchivePath64Bit: `node-v$:Version$-win-x64`
-* Launcher: $:Label$
+* Launcher: `$:Label$`
 * VersionCheckUrl: <https://nodejs.org/en/download/>
 * VersionCheckXPath: `/html/body/div[@id='main']/descendant::article/section/p`
 * VersionCheckPattern: `^Latest LTS Version: (?<Version>[\d\.]+)`
@@ -223,7 +223,7 @@ It has an elegant syntax that is natural to read and easy to write.
 * ArchivePath64Bit: `rubyinstaller-$:Release$-x64`
 * Path: `bin`
 * Exe: `bin\ruby.exe`
-* Launcher: $:Label$
+* Launcher: `$:Label$`
 * LauncherArguments: `$:Dir$\bin\irb`
 * VersionCheckString: `RubyInstaller-$:Release$`
 
@@ -284,7 +284,7 @@ Python is a programming language that lets you work quickly and integrate system
 * ArchivePath: `SourceDir`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
-* Launcher: $:Label$ IDLE
+* Launcher: `$:Label$ IDLE`
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
 * VersionCheckUrl: <https://www.python.org/downloads/>
@@ -321,7 +321,7 @@ Python is a programming language that lets you work quickly and integrate system
 * ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
-* Launcher: $:Label$ IDLE
+* Launcher: `$:Label$ IDLE`
 * LauncherExecutable: `$:Dir$\Lib\idlelib\idle.bat`
 * LauncherIcon: `$:Dir$\Lib\idlelib\icons\idle.ico`
 * VersionCheckUrl: <https://www.python.org/downloads/>
@@ -376,7 +376,7 @@ that manage operating systems (Linux, macOS, and Windows) and processes.
 * ArchiveName64Bit: `PowerShell-$:Version$-win-x64.zip`
 * ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
 * Exe: `pwsh.exe`
-* Launcher: $:Label$
+* Launcher: `$:Label$`
 * LauncherArguments: `-ExecutionPolicy`, `RemoteSigned`, `%*`
 
 ### Wget
