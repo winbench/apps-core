@@ -40,8 +40,8 @@ It comes with a graphical file manager and supports a large range of compression
 * License: LGPL-2.1
 * Docs:
     + Help: `7-zip.chm`
-* VersionYear: 19
-* VersionNo: 00
+* VersionYear: 23
+* VersionNo: 01
 * Version: $:VersionYear$.$:VersionNo$
 * Release: $:VersionYear$$:VersionNo$
 * Url: `http://7-zip.org/a/$:ArchiveName$`
