@@ -112,7 +112,7 @@ This Notepad++ app is configured for editing the configuration files of a Bench 
 * License: GPL-3.0
 * LicenseUrl: <https://www.gnu.org/copyleft/gpl.html>
 * VersionMajor: 8
-* Version: `$:VersionMajor$.1`
+* Version: `$:VersionMajor$.5.6`
 * Url: `https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName32Bit: `npp.$:Version$.portable.7z`
 * ArchiveName64Bit: `npp.$:Version$.portable.x64.7z`
