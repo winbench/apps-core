@@ -372,7 +372,7 @@ that manage operating systems (Linux, macOS, and Windows) and processes.
     + Repository: <https://github.com/PowerShell/PowerShell>
     + Get Startet: <https://docs.microsoft.com/en-us/powershell/scripting/overview>
     + System Admin Samples: <https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration>
-* Version: 7.3.3
+* Version: 7.4.0
 * Url: `https://github.com/PowerShell/PowerShell/releases/download/v$:Version$/$:ArchiveName$`
 * ArchiveName64Bit: `PowerShell-$:Version$-win-x64.zip`
 * ArchiveName32Bit: `PowerShell-$:Version$-win-x86.zip`
