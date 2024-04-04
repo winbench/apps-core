@@ -424,8 +424,8 @@ file transfer resume, proxy tunneling and more.
 * Docs:
     + Manual: <https://curl.haxx.se/docs/manual.html>
     + Man Page: <https://curl.haxx.se/docs/manpage.html>
-* Version: 7.86.0
-* VersionPostfix: _2
+* Version: 8.7.1
+* VersionPostfix: _7
 * Url: `https://curl.haxx.se/windows/dl-$:Version$$:VersionPostfix$/$:ArchiveName$`
 * ArchiveName32Bit: `curl-$:Version$$:VersionPostfix$-win32-mingw.zip`
 * ArchiveName64Bit: `curl-$:Version$$:VersionPostfix$-win64-mingw.zip`
