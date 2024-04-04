@@ -317,6 +317,8 @@ Python is a programming language that lets you work quickly and integrate system
 Python is a programming language that lets you work quickly and integrate systems more effectively.
 
 * ID: `Bench.Python3`
+* Dependencies:
+    + `Bench.WiX3`
 * Label: Python 3
 * Tags:
     + cli
@@ -325,21 +327,21 @@ Python is a programming language that lets you work quickly and integrate system
     + interpreter
 * Website: <https://www.python.org/>
 * License: GPL compatible
-* LicenseUrl: <https://docs.python.org/3.6/license.html>
+* LicenseUrl: <https://docs.python.org/3.12/license.html>
 * Docs:
-    + Offline Documentation: `$:Dir$\Doc\python$:CompactVersion$.chm`
+    + Offline Documentation: `$:Dir$\Doc\html\index.html`
     + Online Documentation: <https://docs.python.org/3/>
     + Language Reference: <https://docs.python.org/3/reference/index.html>
     + Library Reference: <https://docs.python.org/3/library/index.html>
 * VersionMajor: 3
-* VersionMinor: 10
+* VersionMinor: 12
 * Revision: 2
 * Version: $:VersionMajor$.$:VersionMinor$.$:Revision$
 * CompactVersion: $:VersionMajor$$:VersionMinor$$:Revision$
 * CPythonVersion: $:VersionMajor$$:VersionMinor$
 * Url: `https://www.python.org/ftp/python/$:Version$/$:ArchiveName$`
-* Only64Bit: `true`
-* ArchiveName64Bit: `python-$:Version$-amd64-webinstall.exe`
+* ArchiveName64Bit: `python-$:Version$-amd64.exe`
+* ArchiveName32Bit: `python-$:Version$.exe`
 * Path: `.`, `Scripts`
 * Exe: `python.exe`
 * Launcher: `$:Label$ IDLE`
