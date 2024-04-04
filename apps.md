@@ -76,6 +76,26 @@ A tool to extract the files from an Inno Setup executable.
 * VersionCheckXPath: `/html/body/descendant::div[@id='files']/table/descendant::tr/th/a`
 * VersionCheckPattern: `innounp\s(?<Version>[\d\.]+)`
 
+### WiX Toolset 3
+
+* ID: `Bench.WiX3`
+* Label: WiX Toolset 3
+* Tags:
+    + cli
+    + setup
+    + extractor
+* Website: <https://github.com/wixtoolset/wix3>
+* License: MS-RL
+* LicenseUrl: <https://raw.githubusercontent.com/wixtoolset/wix3/develop/LICENSE.TXT>
+* Major: 3
+* Minor: 14
+* Revision: 1
+* Version: $:Major$.$:Minor$.$:Revision$
+* CompactVersion: $:Major$$:Minor$
+* Url: `https://github.com/wixtoolset/wix3/releases/download/wix$:CompactVersion$$:Revision$rtm/$:ArchiveName$`
+* ArchiveName: `wix$:CompactVersion$-binaries.zip`
+* Exe: `dark.exe`
+
 ### ConEmu
 
 ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple consoles and simple GUI applications as one customizable GUI window with various features.
