@@ -66,8 +66,8 @@ A tool to extract the files from an Inno Setup executable.
     + extractor
 * Website: <http://innounp.sourceforge.net/>
 * License: GPL-3.0
-* Version: 0.49
-* Release: 049
+* Version: 0.50
+* Release: 050
 * Url: `http://sourceforge.net/projects/innounp/files/innounp/innounp%20$:Version$/$:ArchiveName$`
 * ArchiveName: `innounp$:Release$.rar`
 * Exe: `innounp.exe`
